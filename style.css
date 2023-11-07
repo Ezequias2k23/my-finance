@@ -1,0 +1,535 @@
+.body1 {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+
+.img1 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+    border: 12px solid white;
+}
+
+.container {
+    width: 25%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.h21 {
+    text-align: center;
+    color: #333;
+}
+
+.input1[type="email"],
+.input1[type="password"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #0056b3;
+}
+
+.forgot-password1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.new-account1 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.A1 {
+    color: #007bff;
+    text-decoration: none;
+}
+.body2 {
+    overflow: hidden;
+    margin: 30px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 23%; /* Tamanho ajustado */
+    text-align: center;
+}
+
+.container2 h2 {
+    margin: 0 0 10px; /* Margin ajustado */
+    padding: 15px 0; /* Padding ajustado */
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    border-radius: 8px 8px 0 0; /* Borda superior arredondada */
+}
+
+.form-group2 {
+    margin-bottom: 15px; /* Espaçamento ajustado */
+}
+
+.form-group2 label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-left: 13px;
+    color: #333;
+}
+
+.form-group2 input {
+    width: 80%;
+    padding: 8px; /* Tamanho ajustado */
+    border: 1px solid #1c357a; /* Azul mais forte */
+    border-radius: 0 0 4px 4px; /* Borda inferior arredondada */
+}
+
+.btn2 {
+    margin-top: 16px;
+    background-color: #1c357a; /* Azul mais forte */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.button3 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button3:hover {
+    background-color: #0056b3;
+}
+
+.body3 {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container3 {
+    width: 35%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.h13 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+.input3[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input3 [type="email"] {
+.button3 {
+    background-color: #007bff;
+    color:#000000;
+    border:none;
+    padding:10px 20px;
+    border-radius:4px;
+    cursor:pointer;
+}
+}
+.button3:hover {
+    background-color: #0056b3;
+}
+.body4 {
+    background: linear-gradient(to bottom, #2748a3, #3658b6, #ffffff);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center; /* Centralizar verticalmente */
+    min-height: 100vh;
+}
+
+.content4 {
+    margin-top: 15px;
+    margin-left: 370px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.h14 {
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 380px;
+    margin-top: 0;
+    color: white; /* Texto do h1 em branco */
+}
+
+.p4 {
+    
+    font-style: italic;
+    margin-top: 15px;
+    margin-right: 380px;
+    font-size: 25px; /* Aumentando o tamanho da fonte do parágrafo */
+}
+
+.menu4 {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-button4 {
+    background-color: #19208b;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 50%;
+}
+
+.menu-button4:hover {
+    background-color: #283097;
+}
+
+.mortodepreguiça{
+    font-size: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.body5{
+    overflow: hidden;
+    background: linear-gradient(to bottom, #2a4dad, #3254b3, #ffffff);
+ }
+ .ajuda5 {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin-top: 3px;
+    margin: 0;
+}
+
+.green-button5 {
+    background-color: #4CAF50; /* Cor verde */
+    border: 2px solid #408144; /* Borda com sombreado fraco */
+    color: white; /* Texto branco */
+    padding: 20px 40px; /* Espaçamento interno aumentado */
+    margin-bottom: 50px; /* Distância entre os elementos */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px; /* Cantos arredondados */
+}
+
+.h1config{
+    font-style: initial;
+    font-size: 40px;
+    color: fff;
+}
+#languageButton{
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%; /* Botões ocupam metade da largura da página */
+    font-style: oblique;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #19208b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+#notificationButton{
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0; /* Aumentando a distância entre os botões */
+    padding: 15px 20px; /* Aumentando o espaço interno dos botões */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 20%; /* Botões ocupam metade da largura da página */
+    font-style: oblique;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #19208b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+#syncButton{
+    font-style: oblique;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #19208b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.botaoconifg{
+    font-style: oblique;
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color:rgb(255, 13, 13);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px;
+}
+.bodyconfig{
+    font-style: initial;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+.bodyconfig.containerconfig{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    min-height: 100vh;
+}
+/* Reset some default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles for your page */
+.despesas_body1 {
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.despesash1 {
+    font-size: 65px;
+    color:white;
+}
+
+.despesash3 {
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+}
+
+/* Container for buttons */
+.containerdespesas {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: #fff;
+}
+
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+
+/* Estilos para a área do relatório */
+.day {
+    padding: 10px;
+    margin: 10px;
+    width: calc(50% - 20px); /* Ajuste para ocupar a largura total */
+    display: inline-block;
+    vertical-align: top;
+    height: 150px;
+}
+
+.day textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    padding-block: 45px;
+
+
+}
+
+.hisdespesas_body1 {
+    background: linear-gradient(to bottom, #1c357a, #284491, #ffffff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header styles */
+.hisdespesash1 {
+    font-size: 65px;
+    color:white;
+}
+
+.hisdespesash3 {
+    font-size: 25px;
+    font-style: italic;
+    color:white;
+}
+
+/* Container for buttons */
+.containerhisdespesas {
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    width: 40%;
+}
+
+/* Button styles */
+.button, .buttonr {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.button:hover, .buttonr:hover {
+    background-color: #3e8e41;
+    color: #fff;
+}
+
+.button:active, .buttonr:active {
+    background-color: #3e8e41;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+.img2 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+}
+.img3 {
+    margin-top: 95px; 
+    margin-bottom: 35px;
+}
